@@ -1,0 +1,18 @@
+body {
+    background: orange;
+}
+
+
+li{
+    border: 2px solid red;
+}
+
+/* Ony appear on a page one time. */
+#special {
+    background-color: brown;
+}
+
+/* Can be combined for multiple elements. */
+.completed {
+    text-decoration: underline;
+}

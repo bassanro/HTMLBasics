@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Forms</title>
+</head>
+<body> 
+    <!-- FORMS - used to get Input -->
+    <form action="/my-form-submitting-page" method="POST">
+        <!-- All our inputs go here. -->
+        <input type="text" name="" id="">
+        <input type="date" name="" id="">
+        <input type="email" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="password" name="" id="">
+        <input type="color" name="" id="">
+    </form>
+
+    <h1>Login</h1>
+    <!-- <div>
+        <form action="http://wikipedia.com" method="GET">
+            <label >UserName:
+                <input type="text" name="username" id="" placeholder="username">
+            </label>
+            <label>Password:
+                <input type="password" name="password" id="" placeholder="password">
+            </label>
+            <input type="submit" name="" id="">
+        </form>
+    </div> -->
+
+    <!-- Note that "for" and "id" has same name which links it together. -->
+    <!-- 
+        Validation: 
+            1) required
+            2) 
+     -->
+    <div>
+        <form action="http://wikipedia.com" method="GET">
+            <label for="username">UserName:
+                <input id="username" type="username" id="" placeholder="username" required>
+            </label>
+            <label for="password">Password:
+                <input id="password" type="password" id="" placeholder="password" required>
+            </label>
+            <label for="email">E-Mail:
+                    <input id="email" type="email" id="" placeholder="e-mail" required>
+                </label>
+            <input type="submit" name="" id="">
+        </form>
+    </div>
+
+    <div>
+        <label for="Male">Male</label>
+        <input type="radio" name="Male" id="">
+        <label for="Female">Female</label>
+        <input type="radio" name="Female" id="">
+    </div>
+
+    <!--  Combine Radio buttons using "name" attribute -->
+    <!-- Value is sent in the form. -->
+    <form action="">     
+        <div>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="petChoice" value="Male">
+
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="petChoice" value="Female">
+
+            <button>Go!</button>
+        </div>
+    </form>
+
+    <!-- Drop down menus using select tag color=Yellow-->  
+    <form action="">
+        <p>Whats your favouite color</p>
+        <select name="color" id="">
+            <option >Red</option>
+            <option>Yellow</option>
+            <option>Red</option>
+        </select>
+        
+        <textarea name="paragraph" id="" cols="50" rows="10"></textarea>
+        <button>Go!</button>
+    </form>
+
+</body>
+</html>

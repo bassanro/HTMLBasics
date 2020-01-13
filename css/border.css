@@ -1,0 +1,14 @@
+p {
+    width: 50%;  /* % of parent element - body here */
+    border: 2px solid blue;
+    height: 30px;
+
+    padding : 10px;
+
+    margin: 10px;
+}
+
+div {
+    width: 50%;
+    margin: 0 auto;
+}

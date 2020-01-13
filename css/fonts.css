@@ -1,0 +1,63 @@
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Font Size */
+h1 {
+    font-size: 40px;
+}
+
+
+body {
+    font-size: 10px;
+}
+
+p {
+    font-size: 2em;
+}
+
+
+/* em - Relative and dynamic - here it doubles the size.*/
+/* Default - 16px standard as per browser. */
+span {
+    font-size: 2em;
+}
+
+
+/* font-weight */
+
+p {
+    /* Can be values from 100 to 800 in step of 100  */
+    font-weight: bold;
+}
+
+/*  Multiple the current line */
+p {
+    line-height: 1.5
+}
+
+/* TEXT Align */
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center justify;
+}
+
+/* text decoration */
+p {
+    text-decoration: overline;
+}
+
+h1 {
+    text-decoration: line-through;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        button {
+            margin: 10px;
+        }
+
+        /* Override Red color to Orange */
+        .btn-danger { 
+            background: orange;
+            color: Red;
+        }
+    </style>
+</head>
+<body>
+    <h1 >Boostrap Basics</h1>
+    <div>
+            <button class="btn btn-success" >CLICK ME</button>
+            <button type="button" class="btn btn-dark btn-sm">Dark One</button>
+            <button class="btn btn-outline-info active">Active</button>
+            <button class="btn btn-danger">Active</button>
+    </div>
+
+    <!-- Block level  -->
+    <div>
+        <button class="btn btn-outline-danger btn-block">Do not Download</button>
+        <button class="btn btn-outline-warning btn-block disabled">Disabled</button>
+        
+    </div>
+    <!-- data-toggle="button" aria-pressed="false"  -->
+    <div>
+        <button class="btn btn-info" data-toggle="button" aria-pressed="false">Submit only Once</button>
+    </div>
+
+    <div>
+        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                Single toggle
+                </button>
+    </div>
+
+    <div>
+        <a href="https://getbootstrap.com/docs/4.3/components/buttons/" class="btn btn-info btn-lg" target="_blank">BootStrap Docs</a>
+    </div>
+
+
+
+</body>
+</html>

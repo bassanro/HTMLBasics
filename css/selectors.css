@@ -1,0 +1,53 @@
+/* Element */
+li {
+
+}
+
+/* Class */
+#name {
+
+}
+
+/* Star */
+* {
+    border: 1px solid lightcoral;
+}
+
+/* Descendant Selectors */
+li a {
+    color : red;
+}
+
+
+/* Adjacent Selectors */
+h4 +  ul {
+    border: 4px solid crimson;
+}
+
+
+/* Attribute Selectors */
+a[href="http://www.google.com"] {
+    background: blue;
+}
+
+    /* Not relevant in this page. */
+input[type="text"] {
+    background: blue;
+} 
+
+
+/* nth of type */
+ul:nth-of-type(3) {
+    background-color: lightslategray;
+}
+
+
+li:nth-of-type(3) {
+    background-color: lightgreen;
+}
+
+li:nth-of-type(even) {
+    background-color: purple;
+}
+
+
